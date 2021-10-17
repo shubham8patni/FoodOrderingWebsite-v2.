@@ -1,0 +1,368 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+	padding-bottom: 0;
+	margin: 0;
+	width: 100% !important;
+	height: 100% !important;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.center{
+	text-align: center;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.header-outer{
+	max-width: 100vw;
+	background-color: #FFFBD2;
+	display: block;
+	justify-content: center;
+	padding: 5vw;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	height: 9vh;
+	border-bottom: 1px solid lightgrey;
+}
+
+.header-inner{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.left-header{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15px; 
+
+}
+
+.right-header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.header-btn{
+	border: 1px solid white;
+	border-radius: 8px;
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+	color: black;
+}
+
+.header-btn:hover{
+	color: red;
+	border: 1px solid black;
+}
+
+.login-btn{
+	border: 1px solid grey;
+	border-radius: 8px;
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: black;
+	color: #33FFC3;
+}
+
+.login-btn:hover{
+	font-weight: bold;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 3px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	background-color: #FFFBD2;
+	height: 7vh;
+	border-top: 1px solid lightgrey;
+}
+
+.outer-flex{
+	display: flex;
+	justify-content: space-between;
+	padding: 2.5%;
+	padding-left: 10vw;
+	padding-right: 10vw; 
+	max-width: 100%;
+	/*background-color: #EAE8E8;*/
+
+}
+
+.outer-flex1{
+	display: flex;
+	justify-content: space-between;
+	padding: 2.5%;
+	padding-left: 5vw;
+	padding-right: 5vw; 
+	max-width: 100%;
+	background-color: #EAE8E8;
+
+}
+
+.restaurants-view{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-rows: 1fr;
+	width: 100%;
+}
+
+.restaurants-name{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 250px;
+	padding: 15px;
+}
+
+.restaurants-name:hover{
+	border: 1px solid lightgrey;
+	box-shadow: 2px 2px 5px lightgrey;
+}
+
+.restaurants-name div img{
+	height: 160px;
+	width: 250px;
+	border: 1px solid lightgrey;
+}
+
+.restaurants-info{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 250px;
+}
+
+.menu-view{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;	
+	padding: 15px;
+	border-radius: 5px;
+	background-color: white;
+	max-height: 40vh;
+}
+
+
+.side-view{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	background-color: white;
+	height: 50vh;
+	position: relative;
+}
+
+.width-70{
+	width: 70%;
+}
+
+.width-20{
+	width: 20%;
+}
+
+.width-90{
+	width: 90%;
+}
+
+.menu-item{
+	display: flex;
+	justify-content: space-between;
+	width: 90% !important;
+	border: 2px solid black;
+	border-radius: 3px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.menu-item div img{
+	border: 1px solid green;
+	height: 100%;
+
+}
+
+.buy-btn{
+	border: 1px solid #0F7324;
+	background-color: #0F7324;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.bar-outer{
+	display: block;
+	justify-content: center;
+	max-width: 100%;
+	padding: 50px;
+	background-color: lightgrey;
+}
+
+.bar-outer h1,h2,h3,h4{
+	text-align: center;
+}
+
+.form-outer{
+	display: flex;
+	justify-content: center;
+	max-width: 100vw;
+	background-color: #F6F6F6; 
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.form-inner{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	padding: 5vh;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	border: 2px solid #DCDCDC;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.form-inner form , .form-group{
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+label, input, select{
+	width: inherit;
+	justify-content: flex-start;
+	margin-top: 5px;
+	font-size: 1.3rem;
+	padding: 3px;
+}
+
+.form-button{
+	border-radius: 5px;
+	background-color: #FFFBD2;
+	margin-top: 5%;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.form-button:hover{
+	background-color: #edebab;
+}
+
+
+.primary-div{
+	display: flex;
+	justify-content: space-between;
+	padding: 2.5%;
+	padding-left: 5vw;
+	padding-right: 5vw; 
+	max-width: 100%;
+	background-color: #EAE8E8;
+	/*height: 70vh;*/
+}
+
+.profile-view{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+	grid-template-rows: 1fr;
+	width: 95%;	
+	height: 85%;
+	/*height: 70vh;*/
+
+}
+
+.profile-content{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+	padding: 15px;	
+	/*height: 70%;*/
+}
+
+.profile-pic{
+	padding: 15%;
+	overflow: hidden;
+}
+
+.profile-details{
+	padding: 10%;	
+	width: 100%;
+	/*height: 70%;*/
+}
+
+.menu-image{
+	width: 100px;
+	height: 100px;
+}
+
+.stick-bottom{	
+	display: flex;
+	justify-content: center;
+	width: 80% !important;
+	border: 2px solid black;
+	border-radius: 3px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #FFFBD2;
+	position: absolute;
+    bottom: 0;
+}
+
+.scroll{
+	overflow-y:auto;
+	margin-bottom: 20%;
+}
+
+
+.cart-view{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	background-color: white;
+	height: 50vh;
+	position: relative;
+}
